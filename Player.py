@@ -40,3 +40,6 @@ class Player:
                 return True
         else:
             return False
+
+    def player_result(self):
+        return f"Игрок {self.name} угадал {len(self.used_word)}"
