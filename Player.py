@@ -42,4 +42,4 @@ class Player:
             return False
 
     def player_result(self):
-        return f"Игрок {self.name} угадал {len(self.used_word)}"
+        return f"Имя игрока: {self.name}, угадано слов {len(self.used_word)}"
